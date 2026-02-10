@@ -47,7 +47,7 @@ Group-C/
 
 ## 👥 Team Member Assignments
 
-All members contribute to the **same common folders**. See [MEMBER_ASSIGNMENTS.md](MEMBER_ASSIGNMENTS.md) for detailed file ownership.
+All members contribute to the **same common folders**. 
 
 ### Member 1: Authentication & User Management 🔐
 - **Backend**: `AuthController`, `UserController`, `User` model, `security/` folder
