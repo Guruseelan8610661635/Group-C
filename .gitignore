@@ -1,0 +1,51 @@
+# Gitignore for Group-C Repository
+
+# Backend (Java/Spring Boot)
+target/
+!.mvn/wrapper/maven-wrapper.jar
+*.class
+*.jar
+*.war
+*.ear
+*.log
+*.tmp
+
+# Frontend (React/Node.js)
+node_modules/
+dist/
+build/
+.cache/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# IDE
+.idea/
+.vscode/
+*.iml
+*.iws
+*.ipr
+.project
+.classpath
+.settings/
+
+# Environment & Secrets
+.env
+.env.local
+.env.production
+application.properties
+application-*.properties
+!application.example.properties
+
+# OS
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Temporary files
+*.tmp
+*.bak
+*.backup
